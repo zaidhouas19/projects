@@ -1,0 +1,48 @@
+<footer class="footer-elements">
+  <div class="p-1">
+    <img src="/img/logo_light.png" alt="">
+    <p>News about all and everything presented in grid format. The most grid-format news website in the fictional
+      websites web! Implemented with CSS Grid!</p>
+  </div>
+  <div class="p-1">
+    <h3>Email Newsletter</h2>
+      <p>Do you want to be always up to date with our latest news? Sign up now for our email newsletter service</p>
+      <form>
+        <input type="email">
+        <button class="solidn">subscribe</button>
+      </form>
+  </div>
+  <div class="p-1 linkone">
+    <h3>Site Links</h2>
+      <a href="">Help & Support</a><br>
+      <a href="">Privacy Policy</a><br>
+      <a href="">About us</a><br>
+      <a href="">Contact</a><br>
+  </div>
+  <div class="p-1">
+    <h2>join our club</h1>
+      <p>Join our club to get fantactic perks and stuff. You will likely not regret it.</p>
+      <button class="solidn">Join Now</button>
+  </div>
+</footer>
+
+
+
+
+
+/* footer */
+footer {
+background: #333;
+color: #fff;
+}
+
+.footer-elements {
+display: grid;
+grid-gap: 2rem;
+grid-template-columns: repeat(4, 1fr);
+}
+
+.linkone a {
+color: #fff;
+margin-top: 1rem;
+}
